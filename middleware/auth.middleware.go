@@ -24,14 +24,6 @@ func AuthMiddleWare(ctx *gin.Context) {
 		return
 	}
 
-	// token := ctx.GetHeader("x-token")
-	// if token == "" {
-	// 	ctx.AbortWithStatusJSON(401, gin.H{
-	// 		"message": "unauthenticated",
-	// 	})
-	// 	return
-	// }
-
 	claimsData, err := utils.DecodeToken(token)
 	if err != nil {
 		log.Println("err :: ", err)

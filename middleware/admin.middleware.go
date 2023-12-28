@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"gingon-boilerplate/constanta"
+	constanta "gingon-boilerplate/constants"
 	"gingon-boilerplate/utils"
 	"log"
 

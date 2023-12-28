@@ -1,7 +1,7 @@
 package home_controller
 
 import (
-	"gingon-boilerplate/constanta"
+	constanta "gingon-boilerplate/constants"
 	"gingon-boilerplate/helpers"
 	"gingon-boilerplate/utils"
 	"image"

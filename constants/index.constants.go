@@ -1,4 +1,4 @@
-package constanta
+package constants
 
 const (
 	ADMIN       string = "admin"

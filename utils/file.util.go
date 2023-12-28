@@ -2,7 +2,7 @@ package utils
 
 import (
 	"fmt"
-	"gingon-boilerplate/constanta"
+	constanta "gingon-boilerplate/constants"
 	"gingon-boilerplate/helpers"
 	"image"
 	"log"
